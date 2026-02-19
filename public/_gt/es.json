@@ -1,0 +1,312 @@
+{
+  "116318b63e8f96b0": {
+    "c": "sin cambios",
+    "i": 1,
+    "t": "p"
+  },
+  "14533b9d287048eb": [
+    {
+      "c": "Consejos para desarrolladores",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "01",
+              "i": 4,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": [
+                    "Planifica una expansión del ",
+                    {
+                      "i": 7,
+                      "k": "_gt_n_7",
+                      "v": "n"
+                    },
+                    "%."
+                  ],
+                  "i": 6,
+                  "t": "strong"
+                },
+                " El alemán, el finlandés y otros idiomas aglutinantes suelen expandir el texto en inglés entre un ",
+                {
+                  "i": 8,
+                  "k": "_gt_n_8",
+                  "v": "n"
+                },
+                "% y un ",
+                {
+                  "i": 9,
+                  "k": "_gt_n_9",
+                  "v": "n"
+                },
+                "%. Diseña tu interfaz con contenedores flexibles que puedan adaptarse a este crecimiento."
+              ],
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "02",
+              "i": 11,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Las cadenas cortas se expanden más.",
+                  "i": 13,
+                  "t": "strong"
+                },
+                " Una etiqueta de botón en inglés de ",
+                {
+                  "i": 14,
+                  "k": "_gt_n_14",
+                  "v": "n"
+                },
+                " caracteres puede llegar a ",
+                {
+                  "i": 15,
+                  "k": "_gt_n_15",
+                  "v": "n"
+                },
+                " caracteres en alemán. Cuanto más corto es el texto de origen, mayor tiende a ser la expansión proporcional."
+              ],
+              "i": 12,
+              "t": "p"
+            }
+          ],
+          "i": 10,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "03",
+              "i": 17,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Los idiomas CJK son más compactos.",
+                  "i": 19,
+                  "t": "strong"
+                },
+                " El chino y el japonés usan menos caracteres, pero cada uno transmite más significado. Sin embargo, utilizan más bytes por carácter en la codificación UTF-8."
+              ],
+              "i": 18,
+              "t": "p"
+            }
+          ],
+          "i": 16,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "04",
+              "i": 21,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Mide los bytes, no solo los caracteres.",
+                  "i": 23,
+                  "t": "strong"
+                },
+                " El texto en árabe, chino y japonés puede parecer más corto en número de caracteres, pero puede usar entre ",
+                {
+                  "i": 24,
+                  "k": "_gt_n_24",
+                  "v": "n"
+                },
+                " y ",
+                {
+                  "i": 25,
+                  "k": "_gt_n_25",
+                  "v": "n"
+                },
+                "x más bytes en UTF-8. Esto es relevante para el almacenamiento, el ancho de banda y el tamaño de las columnas de la base de datos."
+              ],
+              "i": 22,
+              "t": "p"
+            }
+          ],
+          "i": 20,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "05",
+              "i": 27,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Evita los diseños de ancho fijo.",
+                  "i": 29,
+                  "t": "strong"
+                },
+                " Usa flexbox, grid y ",
+                {
+                  "c": "min-width",
+                  "i": 30,
+                  "t": "code"
+                },
+                " / ",
+                {
+                  "c": "max-width",
+                  "i": 31,
+                  "t": "code"
+                },
+                " de CSS en lugar de anchos en píxeles fijos. Prueba con tu idioma de destino más largo, no solo con inglés."
+              ],
+              "i": 28,
+              "t": "p"
+            }
+          ],
+          "i": 26,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
+  "3fdb1cae94856035": {
+    "c": [
+      "+",
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "% de expansión"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "5f5449f593ca0904": {
+    "c": "Texto fuente (inglés):",
+    "i": 1,
+    "t": "p"
+  },
+  "6a3a84fec77cfa74": {
+    "c": "Análisis de longitud por idioma",
+    "i": 1,
+    "t": "h1"
+  },
+  "6fdab6731b0efbef": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "% de contracción"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "7c02545d425ba44e": [
+    {
+      "c": "Recuentos de caracteres de un vistazo",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Recuento de caracteres para cada traducción con porcentaje de expansión. El rojo indica una expansión significativa, el verde indica contracción.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "85e1eff38e12945d": {
+    "c": "Selecciona una frase de ejemplo para ver cómo se traduce en distintos idiomas, con el recuento de caracteres y bytes para cada uno.",
+    "i": 1,
+    "t": "p"
+  },
+  "aefea2b7d6c8c67f": [
+    {
+      "c": "Texto",
+      "i": 1,
+      "t": "th"
+    },
+    {
+      "c": "es",
+      "i": 2,
+      "t": "th"
+    }
+  ],
+  "b5e4906043dd9ba3": {
+    "c": "Pruébalo tú mismo",
+    "i": 1,
+    "t": "h3"
+  },
+  "b996bb3e80916477": [
+    {
+      "c": "Cómo cambia el texto entre idiomas",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        "Al traducir texto, su longitud varía, a veces de forma considerable. El alemán tiende a expandirse un ",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        "% o más, mientras que el chino y el japonés suelen contraerse. Comprender estos patrones es fundamental para construir interfaces de usuario internacionalizadas."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "e330fcbc6db15c9f": [
+    {
+      "c": "Comparación en paralelo",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Selecciona un texto y una métrica para ver cómo se compara visualmente cada idioma.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "fb9975d3b387f335": [
+    {
+      "c": "Proporción de expansión promedio",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "Recuento de caracteres relativo al inglés en ",
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        " textos de muestra, desde etiquetas cortas de UI hasta oraciones completas."
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ]
+}
