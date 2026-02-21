@@ -103,7 +103,11 @@ export default function ExpansionChart() {
                   : "text-neutral-500 hover:text-neutral-300"
               }`}
             >
-              {m === "characters" ? "Chars" : "Bytes"}
+              {m === "characters" ? (
+                <T>Chars</T>
+              ) : (
+                <T>Bytes</T>
+              )}
             </button>
           ))}
         </div>

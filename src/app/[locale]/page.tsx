@@ -8,6 +8,24 @@ import InteractiveInput from "@/components/InteractiveInput";
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      <div className="bg-blue-950 border-b border-blue-900">
+        <div className="max-w-3xl mx-auto px-6 py-2 text-center">
+          <T>
+            <p className="text-xs text-blue-300">
+              This is an example app built with{" "}
+              <a
+                href="https://generaltranslation.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-blue-100"
+              >
+                General Translation
+              </a>{" "}
+              to demonstrate internationalization. It is not a real product.
+            </p>
+          </T>
+        </div>
+      </div>
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -154,7 +172,16 @@ export default function Home() {
                   </strong>{" "}
                   Chinese and Japanese use fewer characters but each character
                   carries more meaning. However, they use more bytes per
-                  character in UTF-8 encoding.
+                  character in{" "}
+                  <a
+                    href="https://unicode.org/faq/utf_bom.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-neutral-300 underline hover:text-neutral-100"
+                  >
+                    UTF-8
+                  </a>{" "}
+                  encoding.
                 </p>
               </div>
               <div className="flex gap-3">
@@ -184,7 +211,16 @@ export default function Home() {
                     max-width
                   </code>{" "}
                   instead of fixed pixel widths. Test with your longest target
-                  language, not just English.
+                  language, not just English. The{" "}
+                  <a
+                    href="https://www.w3.org/International/articles/article-text-size"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-neutral-300 underline hover:text-neutral-100"
+                  >
+                    W3C internationalization guide
+                  </a>{" "}
+                  has more details on text size in translation.
                 </p>
               </div>
             </div>

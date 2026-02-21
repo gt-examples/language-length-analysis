@@ -1,5 +1,6 @@
 import { T, Num, Var } from "gt-next";
-import { getAverageExpansion, languages } from "@/lib/data";
+import { getGT } from "gt-next/server";
+import { getAverageExpansion } from "@/lib/data";
 
 function ExpansionCard({
   name,
@@ -41,12 +42,21 @@ function ExpansionCard({
   );
 }
 
-export default function AverageExpansion() {
-  const locales = ["es", "de", "ja", "zh", "ar"];
-  const averages = locales.map((l) => ({
-    locale: l,
-    name: languages[l],
-    avg: getAverageExpansion(l),
+export default async function AverageExpansion() {
+  const gt = await getGT();
+
+  const localeData = [
+    { locale: "es", name: gt("Spanish") },
+    { locale: "de", name: gt("German") },
+    { locale: "ja", name: gt("Japanese") },
+    { locale: "zh", name: gt("Chinese") },
+    { locale: "ar", name: gt("Arabic") },
+  ];
+
+  const averages = localeData.map(({ locale, name }) => ({
+    locale,
+    name,
+    avg: getAverageExpansion(locale),
   }));
 
   averages.sort((a, b) => b.avg - a.avg);

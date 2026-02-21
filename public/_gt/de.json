@@ -4,190 +4,7 @@
     "i": 1,
     "t": "p"
   },
-  "14533b9d287048eb": [
-    {
-      "c": "Tipps für Entwickler",
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": [
-        {
-          "c": [
-            {
-              "c": "01",
-              "i": 4,
-              "t": "span"
-            },
-            {
-              "c": [
-                {
-                  "c": [
-                    "Plant für eine Expansion von ",
-                    {
-                      "i": 7,
-                      "k": "_gt_n_7",
-                      "v": "n"
-                    },
-                    "%."
-                  ],
-                  "i": 6,
-                  "t": "strong"
-                },
-                " Deutsch, Finnisch und andere agglutinierende Sprachen dehnen englischen Text regelmäßig um ",
-                {
-                  "i": 8,
-                  "k": "_gt_n_8",
-                  "v": "n"
-                },
-                "–",
-                {
-                  "i": 9,
-                  "k": "_gt_n_9",
-                  "v": "n"
-                },
-                "% aus. Gestaltet eure UI mit flexiblen Containern, die dieses Wachstum aufnehmen können."
-              ],
-              "i": 5,
-              "t": "p"
-            }
-          ],
-          "i": 3,
-          "t": "div"
-        },
-        {
-          "c": [
-            {
-              "c": "02",
-              "i": 11,
-              "t": "span"
-            },
-            {
-              "c": [
-                {
-                  "c": "Kurze Zeichenketten dehnen sich stärker aus.",
-                  "i": 13,
-                  "t": "strong"
-                },
-                " Eine englische Schaltflächenbeschriftung mit ",
-                {
-                  "i": 14,
-                  "k": "_gt_n_14",
-                  "v": "n"
-                },
-                " Zeichen kann auf Deutsch ",
-                {
-                  "i": 15,
-                  "k": "_gt_n_15",
-                  "v": "n"
-                },
-                " Zeichen werden. Je kürzer der Ausgangstext, desto höher ist die proportionale Expansion."
-              ],
-              "i": 12,
-              "t": "p"
-            }
-          ],
-          "i": 10,
-          "t": "div"
-        },
-        {
-          "c": [
-            {
-              "c": "03",
-              "i": 17,
-              "t": "span"
-            },
-            {
-              "c": [
-                {
-                  "c": "CJK-Sprachen sind kompakter.",
-                  "i": 19,
-                  "t": "strong"
-                },
-                " Chinesisch und Japanisch verwenden weniger Zeichen, aber jedes Zeichen trägt mehr Bedeutung. Allerdings benötigen sie mehr Bytes pro Zeichen in der UTF-8-Kodierung."
-              ],
-              "i": 18,
-              "t": "p"
-            }
-          ],
-          "i": 16,
-          "t": "div"
-        },
-        {
-          "c": [
-            {
-              "c": "04",
-              "i": 21,
-              "t": "span"
-            },
-            {
-              "c": [
-                {
-                  "c": "Bytes messen, nicht nur Zeichen.",
-                  "i": 23,
-                  "t": "strong"
-                },
-                " Arabischer, chinesischer und japanischer Text mag in der Zeichenanzahl kürzer wirken, kann aber ",
-                {
-                  "i": 24,
-                  "k": "_gt_n_24",
-                  "v": "n"
-                },
-                "–",
-                {
-                  "i": 25,
-                  "k": "_gt_n_25",
-                  "v": "n"
-                },
-                "x mehr Bytes in UTF-8 belegen. Das ist relevant für Speicher, Bandbreite und Datenbankspaltengröße."
-              ],
-              "i": 22,
-              "t": "p"
-            }
-          ],
-          "i": 20,
-          "t": "div"
-        },
-        {
-          "c": [
-            {
-              "c": "05",
-              "i": 27,
-              "t": "span"
-            },
-            {
-              "c": [
-                {
-                  "c": "Vermeidet Layouts mit fester Breite.",
-                  "i": 29,
-                  "t": "strong"
-                },
-                " Verwendet CSS Flexbox, Grid und ",
-                {
-                  "c": "min-width",
-                  "i": 30,
-                  "t": "code"
-                },
-                " / ",
-                {
-                  "c": "max-width",
-                  "i": 31,
-                  "t": "code"
-                },
-                " statt fixer Pixelbreiten. Testet mit eurer längsten Zielsprache, nicht nur mit Englisch."
-              ],
-              "i": 28,
-              "t": "p"
-            }
-          ],
-          "i": 26,
-          "t": "div"
-        }
-      ],
-      "i": 2,
-      "t": "div"
-    }
-  ],
+  "27cface4ce8ec314": "Deutsch",
   "3fdb1cae94856035": {
     "c": [
       "+",
@@ -201,6 +18,7 @@
     "i": 1,
     "t": "p"
   },
+  "518895851602c8d8": "Vergleichen Sie, wie sich Textlängen in verschiedenen Sprachen ausdehnen oder verkürzen. Ein linguistisches Analysetool für Lokalisierung von General Translation.",
   "5f5449f593ca0904": {
     "c": "Quelltext (Englisch):",
     "i": 1,
@@ -236,7 +54,23 @@
     }
   ],
   "85e1eff38e12945d": {
-    "c": "Wähle einen Beispielsatz aus, um zu sehen, wie er in verschiedene Sprachen übersetzt wird – mit Zeichen- und Byte-Anzahl für jede Sprache.",
+    "c": "Wähle einen Beispielsatz aus, um zu sehen, wie er in verschiedene Sprachen übersetzt wird, mit Zeichen- und Byte-Anzahl für jede Sprache.",
+    "i": 1,
+    "t": "p"
+  },
+  "877c56c1844921e0": "Bytes",
+  "8ab4b97531ab9d38": "Spanisch",
+  "8cc43d35fb3f9510": "Textlängenanalyse | General Translation",
+  "a7f009b69b1fa314": {
+    "c": [
+      "Dies ist eine Beispiel-App, die mit ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " erstellt wurde, um Internationalisierung zu demonstrieren. Es handelt sich nicht um ein echtes Produkt."
+    ],
     "i": 1,
     "t": "p"
   },
@@ -252,6 +86,202 @@
       "t": "th"
     }
   ],
+  "b59a20a42d199d07": [
+    {
+      "c": "Tipps für Entwickler",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "c": "01",
+              "i": 4,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": [
+                    "Mit ",
+                    {
+                      "i": 7,
+                      "k": "_gt_n_7",
+                      "v": "n"
+                    },
+                    "% Texterweiterung planen."
+                  ],
+                  "i": 6,
+                  "t": "strong"
+                },
+                " Deutsch, Finnisch und andere agglutinierende Sprachen erweitern englische Texte regelmäßig um ",
+                {
+                  "i": 8,
+                  "k": "_gt_n_8",
+                  "v": "n"
+                },
+                "–",
+                {
+                  "i": 9,
+                  "k": "_gt_n_9",
+                  "v": "n"
+                },
+                "%. Gestalten Sie Ihre Benutzeroberfläche mit flexiblen Containern, die dieses Wachstum aufnehmen können."
+              ],
+              "i": 5,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "02",
+              "i": 11,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Kurze Zeichenketten dehnen sich stärker aus.",
+                  "i": 13,
+                  "t": "strong"
+                },
+                " Eine englische Schaltflächenbeschriftung mit ",
+                {
+                  "i": 14,
+                  "k": "_gt_n_14",
+                  "v": "n"
+                },
+                " Zeichen kann auf Deutsch ",
+                {
+                  "i": 15,
+                  "k": "_gt_n_15",
+                  "v": "n"
+                },
+                " Zeichen werden. Je kürzer der Ausgangstext, desto höher ist die proportionale Erweiterung in der Regel."
+              ],
+              "i": 12,
+              "t": "p"
+            }
+          ],
+          "i": 10,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "03",
+              "i": 17,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "CJK-Sprachen sind kompakter.",
+                  "i": 19,
+                  "t": "strong"
+                },
+                " Chinesisch und Japanisch verwenden weniger Zeichen, aber jedes Zeichen trägt mehr Bedeutung. Allerdings belegen sie mehr Bytes pro Zeichen in der ",
+                {
+                  "c": "UTF-8",
+                  "i": 20,
+                  "t": "a"
+                },
+                "-Kodierung."
+              ],
+              "i": 18,
+              "t": "p"
+            }
+          ],
+          "i": 16,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "04",
+              "i": 22,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Bytes messen, nicht nur Zeichen.",
+                  "i": 24,
+                  "t": "strong"
+                },
+                " Arabischer, chinesischer und japanischer Text mag in der Zeichenanzahl kürzer wirken, kann aber ",
+                {
+                  "i": 25,
+                  "k": "_gt_n_25",
+                  "v": "n"
+                },
+                "–",
+                {
+                  "i": 26,
+                  "k": "_gt_n_26",
+                  "v": "n"
+                },
+                "x mehr Bytes in UTF-8 belegen. Das ist relevant für Speicherung, Bandbreite und Datenbankspaltengröße."
+              ],
+              "i": 23,
+              "t": "p"
+            }
+          ],
+          "i": 21,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": "05",
+              "i": 28,
+              "t": "span"
+            },
+            {
+              "c": [
+                {
+                  "c": "Feste Layouts vermeiden.",
+                  "i": 30,
+                  "t": "strong"
+                },
+                " Verwenden Sie CSS-Flexbox, Grid und ",
+                {
+                  "c": "min-width",
+                  "i": 31,
+                  "t": "code"
+                },
+                " / ",
+                {
+                  "c": "max-width",
+                  "i": 32,
+                  "t": "code"
+                },
+                " statt fester Pixelbreiten. Testen Sie mit Ihrer längsten Zielsprache, nicht nur mit Englisch. Der ",
+                {
+                  "c": "W3C-Internationalisierungsleitfaden",
+                  "i": 33,
+                  "t": "a"
+                },
+                " enthält weitere Details zur Textgröße bei Übersetzungen."
+              ],
+              "i": 29,
+              "t": "p"
+            }
+          ],
+          "i": 27,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    }
+  ],
   "b5e4906043dd9ba3": {
     "c": "Selbst ausprobieren",
     "i": 1,
@@ -265,18 +295,20 @@
     },
     {
       "c": [
-        "Beim Übersetzen von Texten ändert sich deren Länge – manchmal erheblich. Deutsch neigt dazu, sich um ",
+        "Beim Übersetzen von Text ändert sich dessen Länge – manchmal erheblich. Deutsch neigt dazu, sich um ",
         {
           "i": 3,
           "k": "_gt_n_3",
           "v": "n"
         },
-        "% oder mehr auszudehnen, während Chinesisch und Japanisch oft kürzer werden. Diese Muster zu verstehen ist entscheidend für die Entwicklung internationalisierter Benutzeroberflächen."
+        "% oder mehr auszudehnen, während Chinesisch und Japanisch oft kürzer werden. Das Verständnis dieser Muster ist entscheidend für die Entwicklung internationalisierter UIs."
       ],
       "i": 2,
       "t": "p"
     }
   ],
+  "bb703faaf6fb3eb7": "Chinesisch",
+  "d1634d41846e72cb": "Japanisch",
   "e330fcbc6db15c9f": [
     {
       "c": "Direkter Vergleich",
@@ -289,21 +321,23 @@
       "t": "p"
     }
   ],
+  "e656a9f0ea11d6f7": "Zeichen",
+  "f077cdecdd537441": "Arabisch",
   "fb9975d3b387f335": [
     {
-      "c": "Durchschnittliches Expansionsverhältnis",
+      "c": "Durchschnittliche Expansionsrate",
       "i": 1,
       "t": "h3"
     },
     {
       "c": [
-        "Zeichenanzahl im Verhältnis zum Englischen über ",
+        "Zeichenanzahl relativ zum Englischen über ",
         {
           "i": 3,
           "k": "_gt_n_3",
           "v": "n"
         },
-        " Beispieltexte, von kurzen UI-Beschriftungen bis hin zu vollständigen Sätzen."
+        " Beispieltexte, von kurzen UI-Bezeichnungen bis hin zu vollständigen Sätzen."
       ],
       "i": 2,
       "t": "p"

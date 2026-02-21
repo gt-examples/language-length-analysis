@@ -4,7 +4,89 @@
     "i": 1,
     "t": "p"
   },
-  "14533b9d287048eb": [
+  "27cface4ce8ec314": "Alemán",
+  "3fdb1cae94856035": {
+    "c": [
+      "+",
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "% de expansión"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "518895851602c8d8": "Compara cómo se expande y se contrae el texto en distintos idiomas. Una herramienta de análisis lingüístico y de localización de General Translation.",
+  "5f5449f593ca0904": {
+    "c": "Texto fuente (inglés):",
+    "i": 1,
+    "t": "p"
+  },
+  "6a3a84fec77cfa74": {
+    "c": "Análisis de Longitud por Idioma",
+    "i": 1,
+    "t": "h1"
+  },
+  "6fdab6731b0efbef": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "% de contracción"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "7c02545d425ba44e": [
+    {
+      "c": "Recuentos de caracteres de un vistazo",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Recuento de caracteres para cada traducción con porcentaje de expansión. El rojo indica una expansión significativa, el verde indica contracción.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "85e1eff38e12945d": {
+    "c": "Selecciona una frase de ejemplo para ver cómo se traduce en distintos idiomas, con el recuento de caracteres y bytes para cada uno.",
+    "i": 1,
+    "t": "p"
+  },
+  "877c56c1844921e0": "Bytes",
+  "8ab4b97531ab9d38": "Español",
+  "8cc43d35fb3f9510": "Análisis de longitud del texto por idioma | General Translation",
+  "a7f009b69b1fa314": {
+    "c": [
+      "Esta es una aplicación de ejemplo creada con ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " para demostrar la internacionalización. No es un producto real."
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "aefea2b7d6c8c67f": [
+    {
+      "c": "Texto",
+      "i": 1,
+      "t": "th"
+    },
+    {
+      "c": "es",
+      "i": 2,
+      "t": "th"
+    }
+  ],
+  "b59a20a42d199d07": [
     {
       "c": "Consejos para desarrolladores",
       "i": 1,
@@ -34,7 +116,7 @@
                   "i": 6,
                   "t": "strong"
                 },
-                " El alemán, el finlandés y otros idiomas aglutinantes suelen expandir el texto en inglés entre un ",
+                " El alemán, el finlandés y otras lenguas aglutinantes suelen expandir el texto en inglés entre un ",
                 {
                   "i": 8,
                   "k": "_gt_n_8",
@@ -81,7 +163,7 @@
                   "k": "_gt_n_15",
                   "v": "n"
                 },
-                " caracteres en alemán. Cuanto más corto es el texto de origen, mayor tiende a ser la expansión proporcional."
+                " caracteres en alemán. Cuanto más corto es el texto original, mayor tiende a ser la expansión proporcional."
               ],
               "i": 12,
               "t": "p"
@@ -100,11 +182,17 @@
             {
               "c": [
                 {
-                  "c": "Los idiomas CJK son más compactos.",
+                  "c": "Las lenguas CJK son más compactas.",
                   "i": 19,
                   "t": "strong"
                 },
-                " El chino y el japonés usan menos caracteres, pero cada uno transmite más significado. Sin embargo, utilizan más bytes por carácter en la codificación UTF-8."
+                " El chino y el japonés usan menos caracteres, pero cada uno tiene mayor carga semántica. Sin embargo, utilizan más bytes por carácter en la codificación ",
+                {
+                  "c": "UTF-8",
+                  "i": 20,
+                  "t": "a"
+                },
+                "."
               ],
               "i": 18,
               "t": "p"
@@ -117,139 +205,81 @@
           "c": [
             {
               "c": "04",
-              "i": 21,
+              "i": 22,
               "t": "span"
             },
             {
               "c": [
                 {
                   "c": "Mide los bytes, no solo los caracteres.",
-                  "i": 23,
+                  "i": 24,
                   "t": "strong"
                 },
-                " El texto en árabe, chino y japonés puede parecer más corto en número de caracteres, pero puede usar entre ",
-                {
-                  "i": 24,
-                  "k": "_gt_n_24",
-                  "v": "n"
-                },
-                " y ",
+                " El texto en árabe, chino y japonés puede parecer más corto en número de caracteres, pero puede ocupar entre ",
                 {
                   "i": 25,
                   "k": "_gt_n_25",
                   "v": "n"
                 },
+                " y ",
+                {
+                  "i": 26,
+                  "k": "_gt_n_26",
+                  "v": "n"
+                },
                 "x más bytes en UTF-8. Esto es relevante para el almacenamiento, el ancho de banda y el tamaño de las columnas de la base de datos."
               ],
-              "i": 22,
+              "i": 23,
               "t": "p"
             }
           ],
-          "i": 20,
+          "i": 21,
           "t": "div"
         },
         {
           "c": [
             {
               "c": "05",
-              "i": 27,
+              "i": 28,
               "t": "span"
             },
             {
               "c": [
                 {
                   "c": "Evita los diseños de ancho fijo.",
-                  "i": 29,
+                  "i": 30,
                   "t": "strong"
                 },
-                " Usa flexbox, grid y ",
+                " Usa flexbox, grid de CSS y ",
                 {
                   "c": "min-width",
-                  "i": 30,
+                  "i": 31,
                   "t": "code"
                 },
                 " / ",
                 {
                   "c": "max-width",
-                  "i": 31,
+                  "i": 32,
                   "t": "code"
                 },
-                " de CSS en lugar de anchos en píxeles fijos. Prueba con tu idioma de destino más largo, no solo con inglés."
+                " en lugar de anchos en píxeles fijos. Prueba con tu idioma de destino más largo, no solo con inglés. La ",
+                {
+                  "c": "guía de internacionalización del W3C",
+                  "i": 33,
+                  "t": "a"
+                },
+                " ofrece más detalles sobre el tamaño del texto en traducción."
               ],
-              "i": 28,
+              "i": 29,
               "t": "p"
             }
           ],
-          "i": 26,
+          "i": 27,
           "t": "div"
         }
       ],
       "i": 2,
       "t": "div"
-    }
-  ],
-  "3fdb1cae94856035": {
-    "c": [
-      "+",
-      {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "% de expansión"
-    ],
-    "i": 1,
-    "t": "p"
-  },
-  "5f5449f593ca0904": {
-    "c": "Texto fuente (inglés):",
-    "i": 1,
-    "t": "p"
-  },
-  "6a3a84fec77cfa74": {
-    "c": "Análisis de longitud por idioma",
-    "i": 1,
-    "t": "h1"
-  },
-  "6fdab6731b0efbef": {
-    "c": [
-      {
-        "i": 2,
-        "k": "_gt_value_2",
-        "v": "v"
-      },
-      "% de contracción"
-    ],
-    "i": 1,
-    "t": "p"
-  },
-  "7c02545d425ba44e": [
-    {
-      "c": "Recuentos de caracteres de un vistazo",
-      "i": 1,
-      "t": "h3"
-    },
-    {
-      "c": "Recuento de caracteres para cada traducción con porcentaje de expansión. El rojo indica una expansión significativa, el verde indica contracción.",
-      "i": 2,
-      "t": "p"
-    }
-  ],
-  "85e1eff38e12945d": {
-    "c": "Selecciona una frase de ejemplo para ver cómo se traduce en distintos idiomas, con el recuento de caracteres y bytes para cada uno.",
-    "i": 1,
-    "t": "p"
-  },
-  "aefea2b7d6c8c67f": [
-    {
-      "c": "Texto",
-      "i": 1,
-      "t": "th"
-    },
-    {
-      "c": "es",
-      "i": 2,
-      "t": "th"
     }
   ],
   "b5e4906043dd9ba3": {
@@ -277,6 +307,8 @@
       "t": "p"
     }
   ],
+  "bb703faaf6fb3eb7": "Chino",
+  "d1634d41846e72cb": "Japonés",
   "e330fcbc6db15c9f": [
     {
       "c": "Comparación en paralelo",
@@ -289,6 +321,8 @@
       "t": "p"
     }
   ],
+  "e656a9f0ea11d6f7": "Chars",
+  "f077cdecdd537441": "Árabe",
   "fb9975d3b387f335": [
     {
       "c": "Proporción de expansión promedio",
@@ -297,7 +331,7 @@
     },
     {
       "c": [
-        "Recuento de caracteres relativo al inglés en ",
+        "Recuento de caracteres en relación con el inglés en ",
         {
           "i": 3,
           "k": "_gt_n_3",
